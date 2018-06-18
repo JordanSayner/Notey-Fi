@@ -23,7 +23,7 @@ jQuery(function ($) {
         ////////
         // Notification Template
         ////////
-        var notificationTemplate = "<div id='" + settings.ItemClass + "--" + ID + "--" + Math.floor((Math.random() * 10000) + 1) + "' class='" + settings.ItemClass + " " + settings.ItemClass + "__" + Type + "'>" + Text + "<div class='" + settings.closeButtonClass + "'></div></div>";
+        var notificationTemplate = "<div id='" + settings.ItemClass + "--" + ID + "' class='" + settings.ItemClass + " " + settings.ItemClass + "__" + Type + "'>" + Text + "<div class='" + settings.closeButtonClass + "'></div></div>";
 
         ////////
         // Added notification
